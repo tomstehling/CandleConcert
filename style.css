@@ -1,0 +1,114 @@
+
+/*
+Farbpalette:
+    Hell: #FFC397
+    Hell: #FFA998
+    Blau: #18ACBA
+    Rot: #F76566
+
+*/
+
+
+html, body {
+    padding: 0; margin: 0;
+    text-align: center;
+    background: #232323;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+div {
+    text-align: auto;
+    font-size: 1em;
+    background: #2b2a2a;
+
+}
+
+
+button:active {
+   background: #ffffff;
+}
+
+button {
+    background-color: #ef6060;
+    border: none;
+    color: #e1d5d5;
+    font-size: 2em;
+    padding: 0.5em 1.5em;
+    font-family: monospace;
+}
+
+
+.slider {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 15px;
+    background: #ef6060;
+    outline: none;
+    opacity: 0.5;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+
+}
+.compressorSlider {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 15px;
+    background: #60efa3;
+    outline: none;
+    opacity: 0.5;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.filterSlider {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 15px;
+    background: #607def;
+    outline: none;
+    opacity: 0.5;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+/*
+#drumGainContainer {
+    background: #CCD9E2;
+}
+*/
+
+.slider:hover, .compressorSlider:hover, .filterSlider:hover {
+    opacity: 1;
+}
+
+#songSelection {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color:#232323;
+    font-size: em;
+}
+
+.slider::-webkit-slider-thumb, .compressorSlider::-webkit-slider-thumb, .filterSlider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #ffffff;
+    cursor: pointer;
+}
